@@ -1,0 +1,73 @@
+/* ========== google fonts ====== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/* ========= variables css ====== */
+:root {
+    --header-height: 3rem;
+
+    /* ====== colors ====== */
+    --title-color: ;
+    --text-color: ;
+    --text-color-light: ;
+    --container-color: ;
+    --container-color-alt: ;
+}
+
+/* ======== header =========== */
+.header-style {
+    background-color: rgba(77, 122, 51, 0.82);
+    background-image: url("imgs/header-image.jpg");
+    font-family: roboto;
+}
+
+
+/* =========== nav =========== */
+nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 5rem;
+    font-size:large ;
+    margin-bottom: 5rem;
+}
+nav ul{
+    margin-left: 40rem;
+    font-size:medium;
+}
+
+nav li{
+    display: inline;
+    margin: 2rem;
+}
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+li a:hover{
+    color:cadetblue;
+}
+
+h1 {
+    margin-left: 28rem;
+    margin-right:28rem;
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+}
+
+button{
+    color: #295518;
+    background-color:#FFC107;
+    font-size: medium;
+    padding: 1%;
+    border-radius: 15%;
+    font-family: roboto;
+    align-self: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 38rem;
+    margin-right: 38rem;
+}
