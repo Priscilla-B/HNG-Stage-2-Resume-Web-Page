@@ -15,11 +15,14 @@
 
 /* ======== header =========== */
 .header-style {
-    background-color: rgba(77, 122, 51, 0.82);
     background-image: url("imgs/header-image.jpg");
     font-family: roboto;
+    background-size: 65rem;
 }
 
+.layer {
+    background-color: rgba(77, 122, 51, 0.7);
+}
 
 /* =========== nav =========== */
 nav{
