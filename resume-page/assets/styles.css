@@ -13,10 +13,19 @@
     --container-color-alt: ;
 }
 
+/* ======== general elements */
+body {
+    font-family: roboto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000 
+}
+
 /* ======== header =========== */
 .header-style {
     background-image: url("imgs/header-image.jpg");
-    font-family: roboto;
     background-size: 65rem;
 }
 
@@ -24,7 +33,7 @@
     background-color: rgba(77, 122, 51, 0.7);
 }
 
-h1 {
+.intro {
     margin-left: 28rem;
     margin-right:28rem;
     color:#ffffff;
@@ -74,3 +83,57 @@ li a:hover{
     color:cadetblue;
 }
 
+/* ========== Sections ========= */
+.section-titles{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ======== Projects ========*/
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.project-item{
+    flex-grow: 1;
+    
+    text-align: center;
+}
+.project-image{
+    width: 20rem;
+    height: 15rem;
+}
+
+.experience-section{
+background-color: #71935d;
+padding-top: 1rem;
+padding-left: 10rem;
+padding-right: 10rem;
+padding-bottom: 1rem;
+}
+.experience-title{
+    text-align: center;
+    color:#ffffff;
+    font-weight: 400;
+}
+
+.experience-container{
+    display: flex;
+    background-color: #99bd84;
+    border-color: #FFC107;
+    border-width: 1px;
+    border-radius: 5%;
+    border-style: solid;
+    padding: 1rem;
+    margin: 2rem;
+}
+.experience-item-logo{
+    flex-grow: 1;
+    margin-right:2rem;
+}
+.experience-item-text{
+    flex-grow: 1;
+}
