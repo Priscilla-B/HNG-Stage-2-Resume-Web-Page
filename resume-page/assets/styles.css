@@ -230,7 +230,7 @@ padding-bottom: 1rem;
 
 .vertical-line{
     border-left: 1px solid #C4C4C4;
-    height: 20rem;
+    min-height: 26rem;
     position: absolute;
     left: 50%;
     flex-grow: 1;
@@ -244,11 +244,13 @@ padding-bottom: 1rem;
 }
 
 .certs{
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .cert-container{
     display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .cert-item{
     flex-grow: inherit;
@@ -256,10 +258,23 @@ padding-bottom: 1rem;
 .certs-logos{
     width: 30px;
     height: 30px;
+    margin-right: 12px;
 }
 
-
-
+/* ============ contact section ============== */
+.contact-section{
+    background-color: #71935D;
+    padding: 5% 10%;
+}
+.contact-container{
+    display: flex;
+    justify-content:center;
+}
+.contact-item{
+    margin: 0 10px;
+    width: 40px;
+    height: 40px
+}
 
 /* ======== for smaller screens(750 and below) ======== */
 @media screen and (max-width:750px){
@@ -278,5 +293,9 @@ padding-bottom: 1rem;
 @media screen and (max-width:500px){
     .intro{
         font-size: 2rem;
+    }
+    .contact-item{
+        width: 30px;
+        height: 30px
     }
 }
