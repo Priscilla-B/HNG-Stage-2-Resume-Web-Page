@@ -186,6 +186,78 @@ padding-bottom: 1rem;
     flex-grow: 1;
 }
 
+
+/* ======= Skills and Certs ======= */
+
+.skills-and-certs{
+    display: flex;
+}
+.sub-section-titles{
+    text-align: center;
+}
+
+.skills-section{
+    flex-grow: 1;
+    max-width: 40%;
+    margin: 0 5%;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+
+.skills-item{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 80%;
+    max-width: 5rem;
+    margin: 0 2rem;
+}
+
+.skills-logos{
+    width: 55px;
+    height: 55px;
+}
+
+
+.vertical-line{
+    border-left: 1px solid #C4C4C4;
+    height: 20rem;
+    position: absolute;
+    left: 50%;
+    flex-grow: 1;
+}
+
+.certs-section{
+    margin: 0 5%;
+    flex-grow: 1;
+    background-color:lightcoral;
+    max-width: 40%;
+    align-items: left;
+}
+
+.certs{
+    display: block;
+    text-align: center;
+}
+.cert-container{
+    display: flex;
+}
+.cert-item{
+    flex-grow: inherit;
+}
+.certs-logos{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
 /* ======== for smaller screens(750 and below) ======== */
 @media screen and (max-width:750px){
     .nav-handler{
