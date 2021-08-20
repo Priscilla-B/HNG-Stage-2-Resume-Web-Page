@@ -46,7 +46,7 @@ justify-content: center;
     padding:0 1rem;
 }
 
-button{
+.button{
     color: #295518;
     background-color:#FFC107;
     font-size: medium;
@@ -62,7 +62,12 @@ button{
     margin-left: auto;
     margin-right: auto;
     position:static;
+
 }
+button a:hover{
+    color:#295518;
+}
+
 
 /* =========== nav =========== */
 nav{
@@ -134,9 +139,10 @@ li a:hover{
     text-align: center;
     font-weight: 600;
 }
-div a:hover{
+section div a:hover{
     color:#FFC107;
 }
+
 
 /* ======== Projects ========*/
 
