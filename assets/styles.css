@@ -180,15 +180,15 @@ section div a:hover{
 .experience-container{
     display: flex;
     background-color: #99bd84;
-    border-color: #FFC107;
-    border-width: 1px;
+    border-right: 2px solid #FFC107;
     border-radius: 8px;
-    border-style: solid;
+    box-shadow: 0px 4px 15px -5px #3b572b;
     padding: 1rem;
     margin: 2rem auto;
     width:80%;
     max-width: 680px;
 }
+
 .experience-item-logo{
     flex-grow: 1;
     margin-right:2rem;
@@ -200,6 +200,12 @@ section div a:hover{
 }
 .experience-item-text{
     flex-grow: 1;
+}
+
+.experience-text {
+    color: #313131;
+    line-height: 160%;
+    font-size: 13px;
 }
 
 
@@ -348,6 +354,8 @@ section div a:hover{
     .experience-container{
         flex-direction: column;
         max-width: 400px;
+        border-bottom: 2px solid #FFC107;
+        border-right: none;
     }
     .experience-item-logo{
         width: 90%;
